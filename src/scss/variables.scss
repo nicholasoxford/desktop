@@ -24,9 +24,9 @@ $brand-info: #555555;
 $brand-warning: #bf7e16;
 $brand-primary-accent: #1252A3;
 
-$background-color: #7be9dc;
-$background-color-alt: #7be9dc;
-$background-color-alt2: #7be9dc;
+$background-color: #277aa0;
+$background-color-alt: #277aa0;
+$background-color-alt2: #277aa0;
 
 $box-background-color: $background-color;
 $box-background-hover-color: $list-item-hover;
@@ -92,9 +92,9 @@ $themes: (
     dark: (
         textColor: #ffffff,
         borderColor: #2f2f2f,
-        backgroundColor: #7be9dc,
-        backgroundColorAlt: #7be9dc,
-        backgroundColorAlt2: #7be9dc,
+        backgroundColor: #277aa0,
+        backgroundColorAlt: #277aa0,
+        backgroundColorAlt2: #277aa0,
         scrollbarColor: #4d4d4d,
         scrollbarHoverColor: #5f5f5f,
         boxBackgroundColor: #363636,
@@ -123,7 +123,7 @@ $themes: (
         inputBackgroundColor: #363636,
         inputPlaceholderColor: #707070,
         buttonBackgroundColor: #363636,
-        buttonBorderColor: #1f1f1f,
+        buttonBorderColor: #002435,
         buttonColor: #e0e0e0,
         buttonPrimaryColor: #46ace7,
         buttonDangerColor: #ff3e24,
@@ -137,12 +137,12 @@ $themes: (
         passwordNumberColor: #52bdfb,
         passwordSpecialColor: #ff7c70,
         calloutBorderColor: #2f2f2f,
-        calloutBackgroundColor: #7be9dc,
+        calloutBackgroundColor: #277aa0,
     ),
     nord: (
         textColor: $nord5,
         borderColor: $nord0,
-        backgroundColor: #7be9dc,
+        backgroundColor: #277aa0,
         backgroundColorAlt: $nord1,
         backgroundColorAlt2: $nord1,
         scrollbarColor: $nord4,

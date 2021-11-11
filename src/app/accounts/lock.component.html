@@ -1,6 +1,8 @@
 <form id="lock-page" (ngSubmit)="submit()">
     <div class="content">
-        <p aria-hidden="true"><i class="fa fa-lock fa-4x text-muted"></i></p>
+        <!-- <p aria-hidden="true"><i class="fa logo-image  text-muted"></i></p> -->
+        <img class="logo-image" alt="Bitwarden">
+
         <p>{{(pinLock ? 'yourVaultIsLockedPinCode' : 'yourVaultIsLocked') | i18n}}</p>
         <div class="box last">
             <div class="box-content">

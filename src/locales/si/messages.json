@@ -474,7 +474,7 @@
     "message": "Submit"
   },
   "masterPass": {
-    "message": "Master Password"
+    "message": "Thimble Password"
   },
   "masterPassDesc": {
     "message": "The master password is the password you use to access your vault. It is very important that you do not forget your master password. There is no way to recover the password in the event that you forget it."
@@ -761,7 +761,7 @@
     "message": "Syncing failed"
   },
   "yourVaultIsLocked": {
-    "message": "Your vault is locked. Verify your master password to continue."
+    "message": "Unlock your Thimble Account By Using TouchID or Enter your Password below."
   },
   "unlock": {
     "message": "අනවහිර"
@@ -775,7 +775,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "jointhimble.com"
       }
     }
   },

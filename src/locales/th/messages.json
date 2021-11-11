@@ -761,7 +761,7 @@
     "message": "Syncing failed"
   },
   "yourVaultIsLocked": {
-    "message": "Your vault is locked. Verify your master password to continue."
+    "message": "Unlock your Thimble Account By Using TouchID or Enter your Password below."
   },
   "unlock": {
     "message": "Unlock"
@@ -775,7 +775,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "jointhimble.com"
       }
     }
   },
