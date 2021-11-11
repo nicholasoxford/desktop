@@ -323,7 +323,7 @@ app-root > #loading {
 
 .logo-image {
     @include themify($themes) {
-        content: url('../images/logo-' + themed('logoSuffix') + '@2x.png');
+        content: url('../images/Thimble_Logo.png');
     }
 }
 

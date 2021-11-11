@@ -24,7 +24,7 @@
     "message": "Identity"
   },
   "typeSecureNote": {
-    "message": "Secure note"
+    "message": "Driver License"
   },
   "folders": {
     "message": "Folders"
@@ -1410,7 +1410,7 @@
     "message": "Timeout action confirmation"
   },
   "enterpriseSingleSignOn": {
-    "message": "Enterprise single sign-on"
+    "message": "Caregiver Sign In"
   },
   "setMasterPassword": {
     "message": "Set master password"
