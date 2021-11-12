@@ -13,10 +13,11 @@ export class NavComponent {
             label: this.i18nService.translate('myVault'),
         },
         {
-            link: '/send',
-            icon: 'fa-paper-plane',
-            label: 'Send',
+            link: '/vault',
+            icon: 'fa-laptop',
+            label: 'Remote Desktop',
         },
+   
     ];
 
     constructor(private i18nService: I18nService) {}
