@@ -329,7 +329,8 @@ app-root > #loading {
 .logo-image-small {
     @include themify($themes) {
         content: url('../images/Thimble_Logo.png');
-        max-width: 100px;
+        max-width: 200px;
+        align-content: flex-start;
     }
 }
 

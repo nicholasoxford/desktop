@@ -7,7 +7,7 @@
         <ul>
             <li [ngClass]="{active: selectedAll}">
                 <a href="#" appStopClick appBlurClick (click)="selectAll()">
-                    <i class="fa fa-fw fa-th" aria-hidden="true"></i>&nbsp;{{'allItems' | i18n}}
+                    <i class="fa fa-fw fa-home" aria-hidden="true"></i>&nbsp;Home
                 </a>
             </li>
             <li [ngClass]="{active: selectedFavorites}">
@@ -25,22 +25,32 @@
         <ul>
             <li [ngClass]="{active: selectedType === cipherType.Login}">
                 <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.Login)">
-                    <i class="fa fa-fw fa-globe" aria-hidden="true"></i>&nbsp;{{'typeLogin' | i18n}}
+                    <i class="fa fa-fw fa-globe" aria-hidden="true"></i>&nbsp;Passwords
                 </a>
             </li>
             <li [ngClass]="{active: selectedType === cipherType.Card}">
                 <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.Card)">
-                    <i class="fa fa-fw fa-credit-card" aria-hidden="true"></i>&nbsp;{{'typeCard' | i18n}}
+                    <i class="fa fa-fw fa-credit-card" aria-hidden="true"></i>&nbsp;Credit Cards
                 </a>
             </li>
             <li [ngClass]="{active: selectedType === cipherType.Identity}">
                 <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.Identity)">
-                    <i class="fa fa-fw fa-id-card-o" aria-hidden="true"></i>&nbsp;{{'typeIdentity' | i18n}}
+                    <i class="fa fa-fw fa-id-card-o" aria-hidden="true"></i>&nbsp;IDs
                 </a>
             </li>
             <li [ngClass]="{active: selectedType === cipherType.SecureNote}">
                 <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.SecureNote)">
-                    <i class="fa fa-fw fa-sticky-note-o" aria-hidden="true"></i>&nbsp;{{'typeSecureNote' | i18n}}
+                    <i class="fa fa-fw fa-sticky-note-o" aria-hidden="true"></i>&nbsp;Secure Documents
+                </a>
+            </li>
+            <li [ngClass]="{active: selectedType === cipherType.Finances}">
+                <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.Finances)">
+                    <i class="fa fa-fw fa-money" aria-hidden="true"></i>&nbsp;Finances
+                </a>
+            </li>
+            <li [ngClass]="{active: selectedType === cipherType.Messages}">
+                <a href="#" appStopClick appBlurClick (click)="selectType(cipherType.Messages)">
+                    <i class="fa fa-fw fa-envelope-open " aria-hidden="true"></i>&nbsp;Messages
                 </a>
             </li>
         </ul>

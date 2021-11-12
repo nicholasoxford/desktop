@@ -15,16 +15,16 @@
     "message": "Categories"
   },
   "typeLogin": {
-    "message": "Login"
+    "message": "Passwords"
   },
   "typeCard": {
-    "message": "Card"
+    "message": "Credit Cards"
   },
   "typeIdentity": {
-    "message": "Identity"
+    "message": "Drivers license"
   },
   "typeSecureNote": {
-    "message": "Drivers license"
+    "message": "Secrets"
   },
   "folders": {
     "message": "Folders"
