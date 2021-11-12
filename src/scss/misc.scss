@@ -326,6 +326,12 @@ app-root > #loading {
         content: url('../images/Thimble_Logo.png');
     }
 }
+.logo-image-small {
+    @include themify($themes) {
+        content: url('../images/Thimble_Logo.png');
+        max-width: 100px;
+    }
+}
 
 [hidden] {
     display: none !important;

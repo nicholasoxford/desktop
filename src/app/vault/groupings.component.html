@@ -2,6 +2,8 @@
 <div class="content">
     <div class="inner-content">
         <h2 class="sr-only">{{'filters' | i18n}}</h2>
+        
+        <img class="logo-image-small" alt="Bitwarden">
         <ul>
             <li [ngClass]="{active: selectedAll}">
                 <a href="#" appStopClick appBlurClick (click)="selectAll()">
